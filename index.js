@@ -1,11 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
-const generateReadme = ({ title, description, tableOfContents, installation, usage, license, contributing, tests, questions }) => {
-    return `
-    
-    `
-}
+
 
 // TODO: Create an array of questions for user input
 const init = () => {
@@ -54,7 +51,7 @@ const init = () => {
     name: 'questions',
     message: 'Please enter contact information should someone have questions for you.',
 }]).then((answers) => {
-    const readme = generateReadme(answers);
+    const readme = generateMarkdown(answers);
 
     const fileName = 'readme.md';
     fs.writeFile(fileName, readme, (err) => {
