@@ -1,9 +1,15 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+const generateReadme = ({ title, description, tableOfContents, installation, usage, license, contributing, tests, questions }) => {
+    return `
+    
+    `
+}
+
 // TODO: Create an array of questions for user input
 const init = () => {
-    inquirer.createPromptModule([{
+    inquirer.prompt([{
     type: 'input',
     name: 'title',
     message: 'What is the title of your project?',
