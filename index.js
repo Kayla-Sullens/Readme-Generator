@@ -32,9 +32,15 @@ const init = () => {
     message: 'Please enter usage information',
 },
 {
-    type: 'input',
+    type: 'list',
     name: 'license',
     message: 'Please select a license for your project.',
+    options: [
+        'MIT', 
+        'Apache 2.0', 
+        'GPL 3.0', 
+        'None'
+    ],
 },
 {
     type: 'input',
