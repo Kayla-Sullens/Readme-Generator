@@ -53,7 +53,7 @@ const init = () => {
 }]).then((answers) => {
     const readme = generateMarkdown(answers);
 
-    const fileName = 'readme.md';
+    const fileName = './output/readme.md';
     fs.writeFile(fileName, readme, (err) => {
         err ? console.log(err) : console.log(`Successfully created ${fileName}!`);
     })
