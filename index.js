@@ -18,11 +18,6 @@ const init = () => {
 },
 {
     type: 'input',
-    name: 'tableOfContents',
-    message: 'Please enter the Table of Contents for your project',
-},
-{
-    type: 'input',
     name: 'installation',
     message: 'Please enter installation instructions.',
 },
@@ -35,7 +30,7 @@ const init = () => {
     type: 'list',
     name: 'license',
     message: 'Please select a license for your project.',
-    options: [
+    choices: [
         'MIT', 
         'Apache 2.0', 
         'GPL 3.0', 
@@ -54,8 +49,13 @@ const init = () => {
 },
 {
     type: 'input',
-    name: 'questions',
-    message: 'Please enter contact information should someone have questions for you.',
+    name: 'gitHub',
+    message: 'Please enter your GitHub username.',
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Please enter your email address.',
 }]).then((answers) => {
     const readme = generateMarkdown(answers);
 

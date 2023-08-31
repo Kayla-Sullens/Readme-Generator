@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   } else {
 
     return `
-  ## Licensing 
+## Licensing 
   ${license}
   ${renderLicenseBadge(license)}
   `
@@ -31,15 +31,41 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-# ${data.description}
-# ${data.tableOfContents} 
-# ${data.installation}
-# ${data.usage}
-# ${data.license}
-# ${data.contributing}
-# ${data.tests}
-# ${data.questions}
+  return `
+# ${data.title}
+${renderLicenseBadge(data.license)}
+
+## Description
+${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions?](#questions?)
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+${renderLicenseSection(data.license)}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions?
+If there are any questions of concerns, I can be reached at:
+##### [github: ${data.gitHub} ](https://github.com/${data.gitHub})
+##### [email: ${data.email}](mailto:${data.email})
+
 `
 };
 
