@@ -39,4 +39,4 @@ If there are any questions or concerns, I can be reached at:
 ##### [Email: N/A](mailto:N/A)
 
 ## Demo Video
-<iframe src="https://drive.google.com/file/d/1ctEZ1ucIHCVvXktSC2j2i0cG1kxnejeN/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1ctEZ1ucIHCVvXktSC2j2i0cG1kxnejeN/preview
