@@ -11,10 +11,10 @@ Test
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Licensing](#licensing)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions?](#questions?)
+- [Questions](#questions)
 
 ## Installation
 Test
@@ -33,8 +33,8 @@ Test
 ## Tests
 Test
 
-## Questions?
-If there are any questions of concerns, I can be reached at:
-##### [github: Test ](https://github.com/Test)
-##### [email: Test](mailto:Test)
+## Questions
+If there are any questions or concerns, I can be reached at:
+##### [GitHub: Test ](https://github.com/Test)
+##### [Email: Test](mailto:Test)
 

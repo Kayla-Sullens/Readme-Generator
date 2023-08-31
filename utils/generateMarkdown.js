@@ -38,10 +38,10 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Licensing](#licensing)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions?](#questions?)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -57,8 +57,8 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 
-## Questions?
-If there are any questions of concerns, I can be reached at:
+## Questions
+If there are any questions or concerns, I can be reached at:
 ##### [GitHub: ${data.gitHub} ](https://github.com/${data.gitHub})
 ##### [Email: ${data.email}](mailto:${data.email})
 
