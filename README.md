@@ -39,4 +39,4 @@ If there are any questions or concerns, I can be reached at:
 ##### [Email: N/A](mailto:N/A)
 
 ## Demo Video
-file:///Users/kaylasullens/Downloads/Readme%20Generator%20Demo%20(1).webm
+(https://drive.google.com/file/d/1ctEZ1ucIHCVvXktSC2j2i0cG1kxnejeN/view)https://drive.google.com/file/d/1ctEZ1ucIHCVvXktSC2j2i0cG1kxnejeN/view
