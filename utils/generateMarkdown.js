@@ -62,8 +62,8 @@ ${data.tests}
 
 ## Questions?
 If there are any questions of concerns, I can be reached at:
-##### [github: ${data.gitHub} ](https://github.com/${data.gitHub})
-##### [email: ${data.email}](mailto:${data.email})
+##### [GitHub: ${data.gitHub} ](https://github.com/${data.gitHub})
+##### [Email: ${data.email}](mailto:${data.email})
 
 `
 };
