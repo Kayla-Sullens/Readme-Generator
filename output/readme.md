@@ -22,11 +22,9 @@ Test
 ## Usage
 Test
 
+
 ## Licensing 
   MIT
-  
-  [![Generic badge](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/.)
-  
   
 
 ## Contributing

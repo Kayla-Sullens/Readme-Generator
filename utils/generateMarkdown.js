@@ -24,7 +24,6 @@ function renderLicenseSection(license) {
     return `
 ## Licensing 
   ${license}
-  ${renderLicenseBadge(license)}
   `
   }
 };
