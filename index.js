@@ -4,7 +4,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const init = () => {
     inquirer.prompt([{
     type: 'input',
